@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>
+    <%= htmlWebpackPlugin.options.title || 'Presentation Title'%>
+  </title>
+  <% if (htmlWebpackPlugin.files.favicon) { %>
+    <link rel="shortcut icon" href="<%=htmlWebpackPlugin.files.favicon%>">
+    <% } %>
+
+
+      <link rel="stylesheet" href="css/reveal.css">
+      <!--link rel="stylesheet" href="css/theme/kpmg.css" id="theme"-->
+
+      <!-- Theme used for syntax highlighting of code -->
+      <link rel="stylesheet" href="lib/css/zenburn.css">
+
+      <!-- Printing and PDF exports -->
+      <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+      </script>
+</head>
+
+<body>
+
+  <div class="reveal">
+    <div class="slides">
+      <section>
+        <h1>Presentation title</h1>
+        <small>Author</small>
+      </section>
+      <section>
+        <section data-background-image="http://unsplash.com/photos/qaoNLVMb4lw/download?force=true">
+          <h1>Title</h1>
+          <h2>Subtitle</h2>
+        </section>
+        <section>
+          <table>
+            <thead>
+              <tr>
+                <td>Topic</td>
+                <td>lorem</td>
+                <td>ipsum</td>
+                <td>dolor</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="fragment">
+                <td>Lorem ipsum.</td>
+                <td>Lorem ipsum dolor sit.</td>
+                <td>Lorem ipsum dolor.</td>
+                <td>Lorem ipsum dolor sit amet, consectetur.</td>
+              </tr>
+              <tr class="fragment">
+                <td>Lorem</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, autem!</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipisicing.</td>
+                <td>Lorem ipsum dolor sit.</td>
+              </tr>
+            </tbody>
+          </table>
+          <aside class="notes">
+            You can put your notes here
+          </aside>
+        </section>
+      </section>
+
+      <section>
+        <h2>Multi column list</h2>
+        <ul style="columns:2;">
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li style="margin-left:30px">Lorem ipsum dolor sit amet.</li>
+          <li style="margin-left:30px">Lorem ipsum dolor sit amet.</li>
+          <li style="margin-left:30px">Lorem ipsum dolor sit amet.</li>
+          <li style="margin-left:30px">Lorem ipsum dolor sit amet.</li>
+          <li style="margin-left:30px">Lorem ipsum dolor sit amet.</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, beatae culpa quasi aspernatur repudiandae optio.</p>
+        <aside class="notes">
+          capture attribute on file input specify you want image / video capture instead of file picker.
+        </aside>
+      </section>
+      <section>
+        <h2>Import image</h2>
+        <img src=<%=require( './img_demo.jpg' )%> />
+        <aside class="notes">
+          Images will be copy automatically in images folder during the build phase
+        </aside>
+      </section>
+      <section>
+        <h1>Thank you</h1>
+      </section>
+    </div>
+  </div>
+
+  <script src="lib/js/head.min.js"></script>
+  <script src="js/reveal.js"></script>
+  <% if (htmlWebpackPlugin.options.devServer) { %>
+    <script src="<%=htmlWebpackPlugin.options.devServer%>/webpack-dev-server.js"></script>
+    <% } %>
+</body>
+
+</html>
