@@ -1,8 +1,8 @@
 {
-  "name": "training-semantic-html",
-  "version": "3.4.1",
-  "description": "Your super title here",
-  "homepage": "http://lab.hakim.se/reveal-js",
+  "name": "presentation-42",
+  "version": "0.1.0",
+  "description": "Our presentaiton made at 42 School in Paris",
+  "homepage": "http://kpmg.lu",
   "subdomain": "revealjs",
   "main": "js/reveal.js",
   "scripts": {
@@ -10,9 +10,9 @@
     "start": "webpack-dev-server"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "http://hakim.se"
+    "name": "Thibault Milan",
+    "email": "thibault.milan@kpmg.lu",
+    "web": "http://thibaultmilan.com"
   },
   "repository": {
     "type": "git",
