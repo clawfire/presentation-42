@@ -7,9 +7,9 @@
 
 ## Contexte: Comment cela fonctionne ?
 
-- Maîtriser le processus métier => expertise KPMG
-- Maîtriser les entrées, sorties et la qualité => expertise KPMG
-- Gérer l'interaction avec le client et supporter la production : **outillage** 
+- Maîtriser le processus métier => **expertise KPMG**
+- Maîtriser le risque et la qualité => **expertise KPMG**
+- Collaboration avec le client et supporter la production => **outillage** 
 
 
 ## Contexte: un exemple de BPO
