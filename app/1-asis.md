@@ -5,26 +5,28 @@
 - Cette externalisation implique qu'un certain degré de risque est transféré à ce prestataire
 
 
-# Comment cela fonctionne ?
+## Contexte: Comment cela fonctionne ?
 
 - Maîtriser le processus métier => expertise KPMG
 - Maîtriser les entrées, sorties et la qualité => expertise KPMG
-- Gérer l'interaction avec le client : **outillage** 
+- Gérer l'interaction avec le client et supporter la production : **outillage** 
 
 
-# Un exemple
+## Contexte: un exemple de BPO
 
-- Pour l'industrie des fonds d'investissement :
-  * la creation de document réglementaire
-  * du reporting de taxe, du calcul de risque d'instrument financier
+- KPMG réalise pour ses clients :
+  * la creation de documents réglementaires
+  * du reporting de taxe, du calcul de risque d'instruments financiers
   
-- Le process peut se résumer à :
+- Le processus peut se résumer à :
   1. collecter les données du client
-  2. traiter les données pour générer la valeur ajoutée 
-  3. controller et transmettre le livrable
- 
- 
-# L'outillage
+  2. traiter ces données pour générer la valeur ajoutée 
+  3. contrôler et transmettre le livrable
 
-- Version simple : téléphone, email, excel, pdf
-- Version avancée : version simple + outil pour accélérer calculs et traitement de données
+
+## Contexte: l'outillage existant
+
+- Version simple : téléphone, e-mail, excel, pdf, share-folders, ...
+- Version avancée : version simple + outil desktop accélérant le traitement de données et les calculs
+
+![alt text](https://media.giphy.com/media/l4EpezMiJLSlCexhe/giphy.gif "un sentiment de peur m'envahit")
