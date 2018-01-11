@@ -26,7 +26,7 @@ Exemple: **Apporter de la collaboration (à la facebook wall), tout en supportan
 
 ## Et automatiser tout ce qui est automatisable
 
-- Deployer/utiliser une software factory: 
+- Déployer/utiliser une software factory: 
   * IN: GitLab
   * Build: CI/CD
   * OUT: Docker registry

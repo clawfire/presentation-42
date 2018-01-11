@@ -1,6 +1,8 @@
 # Mais...
 
-0
+- Parce que c'est un ***Serious business***
+
+- Mais aussi parce l'outillage de départ... offrait en grande marge de progression 
 
 
 ## Contraintes: Produits et architecture
