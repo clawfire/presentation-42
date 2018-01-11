@@ -33,16 +33,16 @@
 
   <div class="reveal">
     <div class="slides">
-      <section>
+      <section data-background-image=<%=require( 'carlos-muza-84523.jpg' )%>>
         <h1>Comment fait on de l'IT dans un BIG 4</h1>
         <small>en 2018, avec des technos à la pointe</small>
       </section>
       <section>
-        <section data-background-image="http://unsplash.com/photos/qaoNLVMb4lw/download?force=true">
+        <section data-background-image=<%=require( 'sean-pollock-203658.jpg' )%>>
           <h1>Qu'est ce qu'un Big 4</h1>
         </section>
         <section>
-          <img src="/app/big4.png" alt="">
+          <img src=<%=require( './big4.png' )%> alt="">
         </section>
         <section>
           <ul>
@@ -81,17 +81,16 @@
           </ul>
         </section>
         <section>
-          <h2>Notre équipe IT - TDA</h2>
+          <h2>Notre équipe IT</h2>
           <ul style="columns:2;">
             <li>2 UX/UI</li>
+            <li class="fragment">2 <sup><small>3/4</small></sup> devops</li>
             <li class="fragment">XX front-end dev</li>
-            <li class="fragment">YY back-end dev</li>
-            <li class="fragment" style="margin-left:30px">ZZ fullstack dev</li>
-            <li class="fragment" style="margin-left:30px">AA architecte / Lead</li>
+            <li class="fragment" style="margin-left:30px" r>XX data scientist</li>
+            <li class="fragment" style="margin-left:30px">YY back-end dev</li>
+            <li class="fragment" style="margin-left:30px">XX fullstack dev</li>
+            <li class="fragment" style="margin-left:30px">XX architecte / Lead</li>
           </ul>
-        </section>
-        <section>
-          <p></p>
         </section>
       </section>
       <section data-markdown="./app/1-asis.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:" data-charset="utf-8">
@@ -99,6 +98,8 @@
       <section data-markdown="./app/2-tobe.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:" data-charset="utf-8">
       </section>
       <section data-markdown="./app/3-constraints.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:" data-charset="utf-8">
+      </section>
+      <section data-markdown="./app/4-howwedidit.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:" data-charset="utf-8">
       </section>
       <section>
         <section>
@@ -118,7 +119,7 @@
         <h2>Aujourd'hui</h2>
         <ul>
           <li>±20 personnes dans l'équipe, projets de 4 mois à 2 ans, SCALA, ReactJS</li>
-          <li class="fragment">Axe de recherche : IOS Natif, machine learning, agent conversationel, blockchain, ...</li>
+          <li class="fragment">Axe de recherche : IOS Natif, machine learning, agent conversationel, <a href="https://fundsdlt.net/" title="check out our blockchain project">blockchain</a>, ...</li>
           <li class="fragment">Projet de transformation IT afin de mutualiser DevOps, UX/UI, Test & QA, Data Managment sur les différentes équipes de dev. </li>
           <li class="fragment">Evolution de notre stack ReactJS vers Typescript, Redux, RxJS, React Semantic UI, ...</li>
         </ul>
@@ -131,20 +132,7 @@
           <li class="fragment">Volontée forte de la firme de renforcer le numérique comme 5e pillier de l'activité</li>
           <li class="fragment">Evolution de notre stack infra vers Rancher V2, Kubernetes, ...</li>
       </section>
-      <section data-markdown="./app/4-howwedidit.md"
-               data-separator="^\n\n\n"
-               data-separator-vertical="^\n\n"
-               data-separator-notes="^Note:"
-               data-charset="utf-8">
-      </section>
-      <section>
-        <h2>Import image</h2>
-        <img src=<%=require( './img_demo.jpg' )%> />
-        <aside class="notes">
-          Images will be copy automatically in images folder during the build phase
-        </aside>
-      </section>
-      <section>
+      <section data-background-image=<%=require( 'jon-tyson-228429.jpg' )%>>
         <h1>Thank you</h1>
       </section>
     </div>
