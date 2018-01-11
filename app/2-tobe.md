@@ -1,18 +1,22 @@
-# Les objectifs
+# Un peu de vision 
 
-Supporter la transformation numérique
-
-
-## Objectifs: produits et architecture
-
-1
+- Supporter la transformation numérique des services KPMG
+- Construire une stratégie produit
+- Décliner une stratégie technologique adaptée 
 
 
-## Objectifs: methodologie
+## Savoir concevoir des produits numériques
 
-2
+- Apporter les codes du "numérique" (Web, Mobile, usage grand public)
+- Mais tout en gardant en tête les priorités "business" (BPO...)
 
 
-## Objectifs: technologies
+## Industrialiser 
 
-3
+- 
+
+
+## Et automatiser
+
+- 
+

@@ -1,7 +1,7 @@
 {
   "name": "presentation-42",
   "version": "0.1.0",
-  "description": "Our presentaiton made at 42 School in Paris",
+  "description": "Our presentation made at 42 School in Paris",
   "homepage": "http://kpmg.lu",
   "subdomain": "revealjs",
   "main": "js/reveal.js",
