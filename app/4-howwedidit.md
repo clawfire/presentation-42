@@ -12,7 +12,6 @@ Il est important de distinguer :
   * une revue de sécurité, pen-test
   * classification des données traitées
   * valider les SLA attendus
-- Prendre en compte les évidences nécessaires pour un audit
 
 
 ## Industrialiser
