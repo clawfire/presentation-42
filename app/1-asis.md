@@ -27,7 +27,7 @@
 
 ## Contexte: l'outillage existant
 
--   Version simple : téléphone, e-mail, excel, pdf, share-folders, ...
+-   Version simple : téléphone, e-mail, excel, pdf, fax, surligneurs, share-folders, ...
 -   Version avancée : version simple + outil desktop accélérant le traitement de données et les calculs
 
 ![alt text](./app/fear.gif "un sentiment de peur m'envahit")
