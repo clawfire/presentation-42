@@ -25,5 +25,5 @@
 ## Se conformer
 
 - Due diligence & audit : il faut les capturer les évidences
-- (Docker | Scala | Mongo | ReactJs | .*) =  c'est pas dans les standards
+- (Docker | Scala | Mongo | ReactJs | .*) =  c'est pas dans les standards IT KPMG
 - Ségrégation client à la KPMG IT Infra : Une app client = Au moins un serveur dédié (🤭 💵💵💵)

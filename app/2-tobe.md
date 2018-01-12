@@ -30,4 +30,5 @@ Exemple: **Apporter de la collaboration (à la facebook wall), tout en supportan
   * IN: GitLab
   * Build: CI/CD
   * OUT: Docker registry
-- Livrer des docker images/docker-compose à la plateforme de hosting
+- Livrer des docker images/docker-compose à la plateforme d'exécution
+

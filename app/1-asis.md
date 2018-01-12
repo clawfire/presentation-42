@@ -16,7 +16,7 @@
 
 -   KPMG réalise pour ses clients :
 
-    -   la creation de documents réglementaires
+    -   la création de documents réglementaires
     -   du reporting de taxe, du calcul de risque d'instruments financiers
 
 -   Le processus peut se résumer à :
