@@ -1,8 +1,8 @@
 # Du coup...
 
 Il est important de distinguer :
-- Les bonnes pratiques (sécurité, organisation, culture du risque)
-- Les standards technologiques
+- Les bonnes pratiques KPMG (sécurité, organisation, culture du risque) : oui!
+- Les standards technologiques : risk assessment 
 
 
 ## Concevoir
@@ -17,7 +17,7 @@ Il est important de distinguer :
 ## Industrialiser
 
 - Standardiser l'architecture des applications
-- Exemple: externaliser la sécurité : OAuth2 provider (AzureAD) : Super pour du SPA, REST API, svc2svc, SLA, MFA, ... 
+  * Exemple: externaliser la sécurité : OAuth2 provider (AzureAD) : Super pour du SPA, REST API, svc2svc, SLA, MFA, ... 
 - Standardiser nos processus de développement :
   * principe des 4 yeux : git-flow
   * CI/CD : immutabilité des releases
