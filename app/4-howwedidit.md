@@ -17,7 +17,8 @@ Il est important de distinguer :
 ## Industrialiser
 
 - Standardiser l'architecture des applications
-  * Exemple: externaliser la sécurité : OAuth2 provider (AzureAD) : Super pour du SPA, REST API, svc2svc, SLA, MFA, ... 
+  * Exemple: externaliser la sécurité : OAuth2 provider (AzureAD) : Super pour du SPA, REST API, svc2svc, SLA, MFA, ...
+  * Exemple: Rancher/Docker pour la ségrégation des applications 
 - Standardiser nos processus de développement :
   * principe des 4 yeux : git-flow
   * CI/CD : immutabilité des releases

@@ -2,7 +2,9 @@
 
 - Parce que c'est un ***Serious business***
 - Mais aussi parce l'outillage de départ... offrait une grande marge de progression
-- Nos apps vont engager l'image de KPMG 
+- Nos apps vont engager l'image de KPMG
+
+Note: cadre légal, conformité KPMG Global, ...
 
 
 ## Pour concevoir des produits numériques 
