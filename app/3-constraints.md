@@ -17,14 +17,12 @@
 
 ## Industrialiser leur construction
 
-- Structuration de l'équipe
+- Structuration de l'équipe : rôle & responsabilité
 - Séparation des rôles (Produit vs. Architecture)
 
 
 ## Et automatiser tout ce qui est automatisable
 
-- Due diligence & audit :
-  * Risk assessment 
-  * Change management
-- Docker c'est pas standard
-- Une app client = Au moins un serveur ($$$ & Slow )
+- Due diligence & audit : il faut les capturer les évidences
+- (Docker|Scala|Mongo|ReactJs|.*) =  c'est pas dans les standards
+- KPMG IT Infra : Une app client = Au moins un serveur (🤭 💵💵💵)
